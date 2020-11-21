@@ -13,7 +13,7 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
 header {
   text-align: center;
   background-color: #ffe289;
-  height: 120px;
+  height: 140px;
   width: 100%;
 }
 
@@ -164,4 +164,67 @@ header h2 {
     width: 100%;
   }
 
+}
+
+.result-image {
+  background-size: cover;
+  height: 450px;
+  width: 450px;
+  margin: 0 auto;
+}
+
+.perfect {
+  background-image: url(answerImage3.png);
+}
+
+.clear {
+  background-image: url(answerImage2.png);
+}
+
+.nomarter {
+  background-image: url(answerImage1.png);
+}
+
+.result-message1 {
+  position: relative;
+  top: 245px;
+  left: 50px;
+  font-size: 18px;
+}
+
+.result-message2 {
+  position: relative;
+  top: 230px;
+  left: 65px;
+  font-size: 18px;
+}
+
+.result-message3 {
+  position: relative;
+  top: 220px;
+  left: 50px;
+  font-size: 18px;
+}
+
+@media (max-width: 445px) {
+  .result-image {
+    width: 350px;
+    height: 350px;
+  }
+
+  .result-message1 {
+    top: 190px;
+    left: 35px;
+    font-size: 14px;
+  }
+  .result-message2 {
+    top: 175px;
+    left: 50px;
+    font-size: 14px;
+  }
+  .result-message3 {
+    top: 165px;
+    left: 35px;
+    font-size: 14px;
+  }
 }
